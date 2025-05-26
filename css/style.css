@@ -13,8 +13,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-image: url(../assets/images/bg_stacked.png);
-    background-repeat: no-repeat;
+    background-color: white;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -30,67 +29,36 @@ body {
     height: 100vh;
 }
 
-.main-text-section {
+.hero-section {
+    width: 600px;
+}
+
+.line1 {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    gap: 12px;
+    align-items: center;
 }
 
-.normal-text {
-    color: #2E2E2E;
-    text-align: center;
-    font-family: "Plus Jakarta Sans";
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+img {
+    height: 48px;
+    width: 85px;
+}
+
+h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2px !important;
     margin: 0;
+    color: #1e1e1e;
 }
 
-.title-text {
-    font-family: "Clash Display";
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.0625rem;
-    margin: 0;
-    text-align: center;
-
-    background: linear-gradient(180deg, #7658E2 25%, #23188B 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-.socials-section {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.socials-title {
-    color: #2E2E2E;
-    text-align: center;
-    font-family: "Plus Jakarta Sans";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0;
-    margin: 0;
-}
-
-.social-icon-set {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.social-icon-set img {
-    width: 2.25rem;
-    height: 2.25rem;
-    cursor: pointer;
+p {
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    line-height: 150%;
+    font-weight: 300;
+    letter-spacing: 0px ;
+    color: #3E3E3E;
 }
