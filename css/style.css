@@ -38,6 +38,7 @@ body {
     display: flex;
     gap: 12px;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 img {
@@ -67,6 +68,27 @@ p {
 @media (max-width: 600px) {
     h1 {
         font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 70px;
+        height: auto;
+    }
+
+    .bg-section {
+        gap: 3rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 401px) {
+    h1 {
+        font-size: 1.8rem;
         letter-spacing: -1px;
     }
 
