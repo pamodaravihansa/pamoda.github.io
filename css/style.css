@@ -30,7 +30,8 @@ body {
 }
 
 .hero-section {
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
 }
 
 .line1 {
@@ -59,6 +60,27 @@ p {
     font-family: Plus Jakarta Sans;
     line-height: 150%;
     font-weight: 300;
-    letter-spacing: 0px ;
+    letter-spacing: 0px;
     color: #3E3E3E;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 70px;
+        height: auto;
+    }
+
+    .bg-section {
+        gap: 3rem;
+        padding: 1rem;
+    }
 }
